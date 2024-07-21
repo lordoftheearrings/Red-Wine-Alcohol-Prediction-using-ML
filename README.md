@@ -18,8 +18,8 @@ The dataset used for this project includes various chemical properties of red wi
 ### Model
 An XGBoost model was trained using the features listed above, excluding the 'quality' column.
 And the following result was obtained:
-![Uploading image.png…]()
 
+![XGBoost Model Result](https://github.com/user-attachments/assets/4b9b0cb8-5511-4145-825f-def8651c7a4c)
 ### Streamlit App
 The Streamlit app provides an interactive interface to input wine characteristics and visualize the predictions. The app includes:
 
