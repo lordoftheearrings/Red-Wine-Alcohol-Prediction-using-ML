@@ -5,22 +5,22 @@ This project aims to predict the alcohol percentage and strength of red wine bas
 ### Data 
 The dataset used for this project includes various chemical properties of red wine, such as:
 
-Fixed acidity
-Volatile acidity
-Citric acid
-Residual sugar
-Chlorides
-Free sulfur dioxide
-Total sulfur dioxide
-Density
-pH
-Sulphates
+1. Fixed acidity
+2. Volatile acidity
+3. Citric acid
+4. Residual sugar
+5. Chlorides
+6. Free sulfur dioxide
+7. Total sulfur dioxide
+8. Density
+9. pH
+10. Sulphates
 ### Model
 An XGBoost model was trained using the features listed above, excluding the 'quality' column.
 ### Streamlit App
 The Streamlit app provides an interactive interface to input wine characteristics and visualize the predictions. The app includes:
 
-A form to input wine characteristics
-A "Predict" button to generate predictions
-A styled layout with a background image and custom colors
+1. A form to input wine characteristics
+2. A "Predict" button to generate predictions
+3. A styled layout with a background image and custom colors
 
